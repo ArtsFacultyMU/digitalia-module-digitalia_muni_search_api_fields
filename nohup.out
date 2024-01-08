@@ -1,0 +1,36 @@
+>  [notice] 148333: Lopičić, Vesna
+> Vesna Lopičić
+> Šmerda, Jaromír
+> Jaromír Šmerda
+>  [warning] The "views_exposed_filter_block:dk_ff_structured_search_page-page_2" was not found
+>  [warning] The "islandora_advanced_search_block:dk_ff_structured_search_page__page_2" was not found
+>  [notice] 148334: 
+>  [notice] 148335: Lauková, Silvia
+> Silvia Lauková
+>  [notice] 148336: 
+>  [notice] 148337: Hudcová, Eva
+> Eva Hudcová
+>  [notice] 148338: 
+>  [notice] 148339: 
+>  [notice] 148340: Havlíčková, Šárka
+> Šárka Havlíčková
+> Havlíčková Kysová, Šárka
+> Šárka Havlíčková Kysová
+> Kysová, Šárka
+> Šárka Kysová
+>  [notice] 148341: Araujo, Gabriel Antunes de
+> Gabriel Antunes de Araujo
+>  [notice] 148342: Melville, Julie
+> Julie Melville
+>  [notice] 148343: Šmerda, Jaromír
+> Jaromír Šmerda
+>  [notice] 148344: 
+>  [notice] 148345: Steinerová, Jela
+> Jela Steinerová
+>  [notice] 148346: 
+
+In Process.php line 441:
+                                                  
+  The process has been signaled with signal "1".  
+                                                  
+
