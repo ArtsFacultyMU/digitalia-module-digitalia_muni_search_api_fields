@@ -45,9 +45,10 @@ class AddAuthorWorks extends ProcessorPluginBase {
   public function addFieldValues(ItemInterface $item) {
     $nid = $item->getOriginalObject()->getEntity()->id();
 
-    $author_of = \Drupal::entityTypeManager()->getStorage('node')->loadByProperties(['field_author' => $nid]);
-    $corporate_author_of = \Drupal::entityTypeManager()->getStorage('node')->loadByProperties(['field_author_corporate' => $nid]);
-    $contributor_of = \Drupal::entityTypeManager()->getStorage('node')->loadByProperties(['field_contributor' => $nid]);
+    $node_storage = \Drupal::entityTypeManager()->getStorage('node');
+    $author_of = $node_storage->loadByProperties(['field_author' => $nid]);
+    $corporate_author_of = $node_storage->loadByProperties(['field_author_corporate' => $nid]);
+    $contributor_of = $node_storage->loadByProperties(['field_contributor' => $nid]);
 
     if ($author_of or $corporate_author_of or $contributor_of) {
       $fields = $item->getFields(FALSE);
